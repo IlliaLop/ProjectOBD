@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diploma", "Diploma\Diploma.csproj", "{FB47EBA6-B052-4BDE-A708-A108ED19BF71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diploma_Utility", "Diploma_Utility\Diploma_Utility.csproj", "{8D3E4BBF-8EA5-4096-AAB1-8049BBDD9B77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diploma_Models", "Diploma_Models\Diploma_Models.csproj", "{95B35B7C-B7C1-4B29-A7EA-AFD74155A8B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diploma_DataAccess", "Diploma_DataAccess\Diploma_DataAccess.csproj", "{B568111D-9186-4039-96EE-0576EF7DA338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automation test framework", "automation test framework", "{45B80E8D-0D7F-4FC8-9E40-809E56432A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diploma.Automation", "Diploma.Automation\Diploma.Automation.csproj", "{4A7461B1-30BB-4198-A96A-0662C507E7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dipoma.Automation.Tests", "Dipoma.Automation.Tests\Dipoma.Automation.Tests.csproj", "{C477B1B9-B93E-4749-9E57-CB1AE40567CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB47EBA6-B052-4BDE-A708-A108ED19BF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB47EBA6-B052-4BDE-A708-A108ED19BF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB47EBA6-B052-4BDE-A708-A108ED19BF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB47EBA6-B052-4BDE-A708-A108ED19BF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3E4BBF-8EA5-4096-AAB1-8049BBDD9B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3E4BBF-8EA5-4096-AAB1-8049BBDD9B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3E4BBF-8EA5-4096-AAB1-8049BBDD9B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3E4BBF-8EA5-4096-AAB1-8049BBDD9B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B35B7C-B7C1-4B29-A7EA-AFD74155A8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B35B7C-B7C1-4B29-A7EA-AFD74155A8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B35B7C-B7C1-4B29-A7EA-AFD74155A8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B35B7C-B7C1-4B29-A7EA-AFD74155A8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B568111D-9186-4039-96EE-0576EF7DA338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B568111D-9186-4039-96EE-0576EF7DA338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B568111D-9186-4039-96EE-0576EF7DA338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B568111D-9186-4039-96EE-0576EF7DA338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7461B1-30BB-4198-A96A-0662C507E7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7461B1-30BB-4198-A96A-0662C507E7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7461B1-30BB-4198-A96A-0662C507E7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7461B1-30BB-4198-A96A-0662C507E7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C477B1B9-B93E-4749-9E57-CB1AE40567CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C477B1B9-B93E-4749-9E57-CB1AE40567CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C477B1B9-B93E-4749-9E57-CB1AE40567CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C477B1B9-B93E-4749-9E57-CB1AE40567CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A7461B1-30BB-4198-A96A-0662C507E7C6} = {45B80E8D-0D7F-4FC8-9E40-809E56432A22}
+		{C477B1B9-B93E-4749-9E57-CB1AE40567CE} = {45B80E8D-0D7F-4FC8-9E40-809E56432A22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05E0E4D4-89FD-4E30-A38C-81E21F76861D}
+	EndGlobalSection
+EndGlobal
